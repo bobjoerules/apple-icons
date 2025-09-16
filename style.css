@@ -1,0 +1,56 @@
+@font-face {
+ font-family: 'Rubik';
+ src: url(Rubik-VariableFont_wght.ttf) format('truetype');
+ font-weight: 100 900;
+}
+p {
+    font-weight: 500;
+    color: #666666;
+}
+html, body{
+    color: #666666;
+    font-family: Rubik, Verdana, Geneva, Tahoma, sans-serif;
+    background: #111111;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+img {
+    display: inline-block;
+    width: 10vw;
+    height: auto;
+}
+.project {
+    padding: 5px;
+    border-color: #222222;
+    border-style: solid; 
+    border-radius: 20px;
+    cursor: pointer;
+    min-width: 200px;
+    background: rgba(0,0,0,0.1);
+}
+.project:hover{
+    border-color: #333333;
+}
+@media (max-width: 720px) {
+    .project {
+        width: 90vw;
+        min-width: 200px;
+    }
+    img {
+        width: 300px;
+    }
+}
+button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;  
+    border-radius: 5px;
+    background-color: #222222;
+    margin: 5px;
+    padding: 10px;
+}
