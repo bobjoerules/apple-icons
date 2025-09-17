@@ -1,7 +1,7 @@
 @font-face {
- font-family: 'Rubik';
- src: url(Rubik-VariableFont_wght.ttf) format('truetype');
- font-weight: 100 900;
+    font-family: 'Rubik';
+    src: url(Rubik-VariableFont_wght.ttf) format('truetype');
+    font-weight: 100 900;
 }
 p {
     font-weight: 500;
@@ -31,7 +31,10 @@ img {
 }
 .project:hover{
     border-color: #333333;
+    background: rgba(0,0,0,0.5);
+    transform: scale(105%);
 }
+
 @media (max-width: 720px) {
     .project {
         width: 90vw;
@@ -41,6 +44,7 @@ img {
         width: 300px;
     }
 }
+
 button {
     border: none;
     color: white;
